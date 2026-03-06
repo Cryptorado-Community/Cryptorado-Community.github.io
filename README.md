@@ -23,13 +23,7 @@ This will serve the website in your default browser on `127.0.0.1:8080` by defau
 
 ### Deploy
 
-This site is hosted on [**IPFS**](https://ipfs.io) - it's content is pined to IPFS, and access it from any IPFS gateway or node, and redirect our domain name to point to the IPFS gateway, [this article](https://medium.com/@chrismatthieu/hosting-a-website-via-ipfs-for-free-afee39b84553) goes over how to do that.
-
-1. Pin the `./site` working directory locally and on community node(s) with UnixFS style.
-   _Do not wrap in folder to preserve name_!
-1. Pin to hosting service(s) via CID or direct upload of the site working directory.
-1. Update DNS for new CID (dnsLink).
-1. Inform the community of new CID.
+Automated on github pages.
 
 ## Architecture and Features:
 
